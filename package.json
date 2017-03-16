@@ -4,10 +4,13 @@
   "version": "1.0.0",
   "description": "Real Time Earthquake Updates",
   "main": "index.js",
-  "scripts": {
-    "start": "babel-node --presets es2015 index.js"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "Albert Kim",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.15.3",
+    "moment": "2.17.1",
+    "nomad-stream": "0.0.8"
+  }
 }
